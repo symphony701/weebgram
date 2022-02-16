@@ -1,0 +1,18 @@
+
+.buton-sign {
+    width: 90%;
+    height: 2.3rem;
+    border: #9debcc 1px solid;
+    border-radius: 10px;
+    background-color: #9debcc;
+    color: #1b1e2a;
+    font-size: 1.2rem;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 1.5rem 0px;
+}
+.buton-sign:hover {
+    background-color: #1b1e2a;
+    color: #9debcc;
+}

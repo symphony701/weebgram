@@ -1,0 +1,75 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 95%;
+    max-width: 95%;
+    border-radius: 10px;
+    overflow-y: auto;
+    height: calc(100vh - 360px);
+    justify-content: flex-end;
+  }
+  .chat-container .chats {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: calc(100% - 50px);
+    align-items: center;
+  }
+  .chat-container .no-select {
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #a8a8a8;
+  }
+  .chat-container .no-select .icon-noselect {
+    font-size: 5rem;
+  }
+  .chat-container .avatar {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .chat-container img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .chat-container .input-chat {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 10px;
+    height: 50px;
+  }
+  .chat-container .form-control {
+    border: none;
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  .chat-container .send-message {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 14px;
+    cursor: pointer;
+  }
+  
+  .chat-container .friend-chat-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }

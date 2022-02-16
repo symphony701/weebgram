@@ -1,0 +1,43 @@
+.frienditem-container {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.frienditem-container .state{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.frienditem-container p{
+    margin: 0;
+    font-size: 0.9rem;
+}
+.frienditem-container .circle-online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #33c920;
+    margin-right: 5px;
+}
+.frienditem-container .circle-offline{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    margin-right: 5px;
+}
+.frienditem-container .avatar{
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.frienditem-container img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

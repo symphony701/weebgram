@@ -1,0 +1,27 @@
+.search {
+  border: 1px solid #008288;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+}
+.search .icon {
+  cursor: pointer;
+  color: #008288;
+}
+.search input {
+  width: 10rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #008288;
+  margin: 0px 15px;
+  color: black;
+}
+.search input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #008288;
+}

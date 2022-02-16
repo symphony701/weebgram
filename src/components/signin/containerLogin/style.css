@@ -1,0 +1,39 @@
+.container {
+  min-width:300px;
+  width: 500px;
+  max-width: 100%;
+  background: #1b1e2a;
+  min-height: 80%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.container h1 {
+  margin-bottom: 0px;
+  font-family: "Pacifico", cursive;
+  color: #9debcc;
+  text-align: center;
+}
+.container h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #9debcc;
+  text-align: center;
+}
+.option-register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white
+}
+.signup{
+  margin-left: 10px;
+  color: #9debcc;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+}

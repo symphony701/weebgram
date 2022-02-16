@@ -1,0 +1,12 @@
+.container-weebgram{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.container-weebgram .weebgram-content{
+    max-width: 100%;
+    min-width: 100%;
+    height: calc(100vh - 1px - 3.5rem);
+    display: flex;
+    background: #f0f2f5;
+}

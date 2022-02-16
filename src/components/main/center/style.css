@@ -1,0 +1,20 @@
+.center {
+    width: calc(100vw - 34rem);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding-bottom: 2rem;
+    background-color: #1b1e2a;
+  }
+  .center::-webkit-scrollbar {
+    width: 11px;
+    background-color: #9debcc;
+    border-radius: 5px;
+  }
+  .center::-webkit-scrollbar-thumb {
+    background-color: #1b1e2a;
+    border-radius: 5px;
+    width: 10px;
+  }
