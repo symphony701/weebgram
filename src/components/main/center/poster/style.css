@@ -1,0 +1,27 @@
+.poster-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    color: #008288;
+}
+
+.poster-container .input-container {
+    width: 70%;
+}
+
+.poster-container .input-container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0px;
+    border-bottom: 1px solid rgba(65, 65, 65, 0.61);
+    cursor: pointer;
+}

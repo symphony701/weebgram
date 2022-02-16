@@ -1,0 +1,55 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container .modal {
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding: 10px 50px;
+    position: relative;
+    overflow-y: auto;
+}
+.modal-container .modal::-webkit-scrollbar {
+    width: 11px;
+    background-color: #9debcc;
+    border-radius: 5px;
+}
+.modal-container .modal::-webkit-scrollbar-thumb {
+    background-color: #1b1e2a;
+    border-radius: 5px;
+    width: 10px;
+}
+.modal-container .invisible {
+    display: none;
+}
+.modal-container .closeModal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 900;
+    font-size: 1.2rem;
+    background: transparent;
+    border: none;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+.modal-container .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    overflow-y: auto;
+}
